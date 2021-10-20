@@ -61,8 +61,8 @@ public class AutomationQAAssignmentTask1 {
 	public static void loginToFlipkart() {
 
 		driver.get("https://www.flipkart.com/");
-		driver.findElement(By.xpath("//span[@class='_36T8XR']/../input")).sendKeys("9742511642");
-		driver.findElement(By.cssSelector("input[type='password']")).sendKeys("Divya@123");
+		driver.findElement(By.xpath("//span[@class='_36T8XR']/../input")).sendKeys("****");
+		driver.findElement(By.cssSelector("input[type='password']")).sendKeys("****");
 		wait.until(
 				ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//div[@class='_1D1L_j']/button"))))
 				.click();
